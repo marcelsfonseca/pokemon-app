@@ -7,6 +7,8 @@ function Menu() {
             <section className={style.centered}>
                 <div className={style.logo}>
                     <Logo />
+                    </div>
+                    <div>
                     <button type="button" className={style.botao}>Start</button>
                 </div>
             </section>

@@ -1,21 +1,13 @@
-html,
-body {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    overflow: hidden;
-}
-
 .centered {
     background-color: aquamarine;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;    
 }
 
 .botao {
-    position: relative;
     text-align: center;
     font-weight: bold;
     size: 18px;
