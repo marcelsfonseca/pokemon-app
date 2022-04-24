@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Menu from 'Pages/Menu';
+import Jogo from 'Pages/Jogo';
 
 
 const root = ReactDOM.createRoot(
@@ -9,6 +10,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Menu />
+    
+    <Jogo />
   </React.StrictMode>
 );
