@@ -1,14 +1,18 @@
 import style from "./Jogo.module.scss";
 import fundo from "assets/fundo.svg";
+import ash from "assets/ash.svg";
+import "./Ash/moveAsh";
 
 function Jogo() {
     return (
         <main>
-            <section className={style.fundo}>
-                <div >
-                <img src={fundo} alt="fundo" />
+            <section >
+                <div className={style.fundo}>
+                    <img src={fundo} alt="fundo" />
                 </div>
-                </section>
+                <div className={style.ash} ><img src={ash} alt="Personagem" /></div>
+            </section>
+            
         </main>
 
     );
