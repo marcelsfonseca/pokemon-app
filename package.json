@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "@types/jquery": "^3.5.14",
     "sass": "^1.50.1",
     "typescript-plugin-css-modules": "^3.4.0"
   }
