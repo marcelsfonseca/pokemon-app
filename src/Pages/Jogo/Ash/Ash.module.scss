@@ -1,7 +1,16 @@
-.persona {
+.personagemParado {
     width: 64px;
     height: 64px;
     position: absolute;
     top: 50%;
     left: 50%;
+    content: url("/assets/ash.svg");
+}
+.personagemMove {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: url("/assets/AshMove.gif");
 }

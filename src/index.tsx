@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Menu from 'Pages/Menu';
+import Menu from 'Pages/startMenu';
 import Jogo from 'Pages/Jogo';
 
 
